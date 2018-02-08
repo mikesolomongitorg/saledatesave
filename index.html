@@ -368,7 +368,7 @@
                 <div class="col-md-6">
                     <!-- Form Start-->
                     <div class="contact_from">
-                        <form action="https://formspree.io/your@email.com" method="post">
+                        <form action="https://formspree.io/saledatesave@gmail.com" method="post">
                             <!-- Message Input Area Start -->
                             <div class="contact_input_area">
                                 <div class="row">
@@ -393,6 +393,10 @@
                                     <div class="col-md-12">
                                         <div class="form-group">
                                             <input type="email" class="form-control" name="email" id="email" placeholder="Your E-mail" required>
+                                            <!-- default reply-to to this email -->
+                                            <input type="hidden" name="_replyto" id="replyto" />
+                                            <!-- redirect to thank you page; value set in enterEmail.js -->
+                                            <input type="hidden" name="_next" id="form-redirect" />
                                         </div>
                                     </div>
                                     <!-- Single Input Area Start -->
